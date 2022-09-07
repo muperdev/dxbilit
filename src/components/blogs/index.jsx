@@ -1,7 +1,7 @@
 import React from 'react'
 import mock from '../../images/desert.jpg'
 
-const Blog = () => {
+const Blog = (props) => {
   return (
     <div className='flex justify-between items-center'>
       <div className='flex flex-col'>
