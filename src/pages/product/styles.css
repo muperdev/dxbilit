@@ -1,0 +1,112 @@
+.container{
+    width: 900px;
+    margin: 0 auto;
+
+}
+.wrapper{
+    display: flex;
+    gap: 2rem;
+}
+.rightSide{
+    background-color: rgb(255, 255, 255);
+    width: 225px;
+    margin-top: 1.1rem;
+    border:1px solid #E5DFDF;
+    border-radius: 5px;
+    position: fixed;
+    right: 210px;
+}
+.rightSide2{
+    background-color: rgb(255, 255, 255);
+    width: 225px;
+    margin-top: 1.1rem;
+    border:1px solid #E5DFDF;
+    border-radius: 5px;
+    position: fixed;
+    right: 210px;
+    top: 420px;
+}
+.rightSide .header,.rightSide2 .header{
+    border-bottom:1px solid #E5DFDF ;
+    height: 46px;
+    padding: 1rem;
+    font-size: .7rem;
+}
+.rightSide .body,.rightSide2 .body{
+    padding: 1rem;
+}
+.rightSide .body h2{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.select-date{
+    border:1px solid #E5DFDF;
+    padding: .7rem;
+    width: 90%;
+    margin: 1rem auto;
+    color: rgb(104, 104, 104);
+    border-radius: 4px;
+    line-height: 18px;
+    height: 40px;
+}
+.rightSide .footer{
+    font-size: .7rem;
+    text-align: center;
+    color: #8000FF;
+    font-weight: bold;
+}
+.rightSide .body button{
+    background-color: #8000FF;
+    width: 90%;
+    margin: 1rem auto;
+    color: white;
+    border-radius: 4px;
+    display: block;
+    height: 40px;
+
+}
+.slider{
+    width: 600px;
+}
+.header{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.rate{
+    display: flex;
+    align-items: center;
+}
+.rate span{
+    display: flex;
+    align-items: center;
+    color: #FF007A;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    gap: .3rem;
+}
+.discription{
+    margin: 1rem 0;
+    width: 620px;
+    padding: 1.5rem .3rem;
+    border-bottom: 1px solid #F0F0F0;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    
+}
+.options p{
+    flex: 0 0 33.333333%;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.list{
+    list-style: disc;
+}
