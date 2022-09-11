@@ -1,8 +1,17 @@
 @font-face {
-  font-family: main;
-  src: url(./fonts/Yekan.ttf);
+  font-family: myFont;
+  src: url('./fonts/IRANYekan.ttf');
 }
 
-main {
-    font-family: main;
+* {
+  font-family: myFont;
+  z-index: 0;
+}
+
+.App {
+  background-color: #fefefe;
+}
+
+.responsive {
+  width: 75vw;
 }

@@ -1,7 +1,7 @@
-import React, { useState } from "react"
-import { useKeenSlider } from "keen-slider/react"
-import "keen-slider/keen-slider.min.css"
-import "./styles.css"
+import React, { useState } from "react";
+import { useKeenSlider } from "keen-slider/react";
+import "keen-slider/keen-slider.min.css";
+import "./styles.css";
 
 export  const Slider=() => {
   const [currentSlide, setCurrentSlide] = useState(0)
